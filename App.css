@@ -1,0 +1,67 @@
+.btun {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    background-color:#06c0e0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btun:hover {
+    background-color: #9ac4fc;
+    color: black;
+  }
+  
+  table {
+    width: 100%;
+    table-layout: fixed; /* Ensures all columns have equal width */
+  }
+  
+
+  td {
+    text-align: center;
+    padding: 10px;
+    width: 25%; /* Ensures each td takes equal width */
+  }
+  
+  td button {
+    width: 100%;
+  }
+  .btun {
+    display: inline-block; 
+    margin: 5px;
+    font-size: 16px;
+  }
+  
+  .form-container {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+  }
+  
+  td {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  td button {
+    width: 100%;
+  }
+  
+  .d-flex button {
+    /* width: 150px; */
+    width: 25%;
+  }
+
+  .d-flex button {
+    flex-grow: 1;
+    width: 25%;
+
+    /* max-width: 200px; */
+  }
+  
